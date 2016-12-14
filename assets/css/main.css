@@ -1,0 +1,208 @@
+/*
+ * Author: Roshan Jerad Perera
+ * URL: http://webresume.net
+ *
+ * Project Name: WEB Resume - Modern
+ * Version: 1.2
+ * Release Date: 02 - 06 - 2015
+ * URL: http://webresume.net/modern
+ */
+/* ==========================================================================
+   Base Styles and Bootstrap Modifications
+   ========================================================================== */
+html,
+body {
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 45px;
+  color: #00796b;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+}
+h3,
+h4,
+h5 {
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+}
+a {
+  color: #b2dfdc;
+}
+a:hover {
+  color: #fdfdfd;
+  style: none;
+}
+p {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}
+/*=============== Section 1 - Header ==============*/
+.demo-2 h2 {
+  color: #FDFDFD;
+  font-size: 65px;
+}
+.demo-2 h3 {
+  color: #b2dfdc;
+  font-size: 30px;
+}
+.demo-2 img {
+  border-radius: 100px;
+}
+/*================== Section 2 - Info =============*/
+.section2 {
+  height: auto;
+  width: auto;
+  background-color: #00796b;
+}
+.section2 p {
+  color: #FDFDFD;
+}
+.section2 a {
+  color: #FDFDFD;
+  padding-bottom: 5px;
+}
+.section2 i {
+  margin-top: 10px;
+  color: #b2dfdc;
+  padding-bottom: 5px;
+}
+.slot1 {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #00796b;
+}
+.slot {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #00796b;
+}
+.slot1:hover,
+.slot:hover {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #009688;
+  transition: background-color 0.5s;
+  moz-transition: background-color 0.5s;
+  webkit-transition: background-color 0.5s;
+}
+/*================ Section 3 ===================*/
+.section3 {
+  padding: 50px 0 50px 0;
+}
+.section3 h3 {
+  color: #333;
+  text-align: center;
+  font-weight: 500;
+}
+/* ==================== Section 4 ===============*/
+.section4 h1 {
+  font-size: 40px;
+}
+.section4 {
+  text-align: center;
+  padding: 50px 0 50px 0;
+  background-color: #b2dfdc;
+}
+.section4 h3 {
+  color: #587481;
+}
+.section4 p {
+  color: #333;
+}
+/*======================= Section 5 ===============*/
+.section5 {
+  padding: 50px 0 50px 0;
+}
+.section5 h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.portflo {
+  padding: 0 140px 0 140px;
+}
+/*======================= Section 6 ===============*/
+.section6 {
+  padding: 0 0 20px 0;
+  background-color: #b2dfdc;
+}
+.is-visible {
+  color: #587481;
+}
+.cd-headline > span {
+  color: #00796b;
+}
+/*======================= Section footer ===============*/
+.footer {
+  padding: 30px 0 0 0;
+  background-color: #5a5a5a;
+  text-align: center;
+}
+.footer i {
+  color: #b2dfdc;
+  padding-right: 5px;
+}
+.footer i:hover {
+  color: #FDFDFD;
+}
+.footer p {
+  color: #989898;
+  font-size: 14px;
+}
+.footer a {
+  color: #d0d0d0;
+}
+.footer a:hover {
+  color: #FDFDFD;
+}
+/*========= Customization for Mobile View ========*/
+/* For mobile : */
+@media screen and (max-width: 480px) {
+  .demo-2 h2 {
+    font-size: 45px;
+  }
+  .demo-2 h3 {
+    font-size: 25px;
+  }
+  .demo-2 img {
+    width: 70%;
+    height: 70%;
+  }
+  .portflo {
+    padding: 0 0 0 0;
+  }
+  .demo-2 {
+    width: auto;
+    height: auto;
+  }
+  .section2 i {
+    font-size: 40px;
+  }
+  .section2 p {
+    font-size: 15px;
+  }
+}
+/* For iphone: */
+@media screen and (max-width: 320px) {
+  .portflo {
+    padding: 0 0 0 0;
+  }
+}
+/* For ipad: */
+@media screen and (max-width: 980px) {
+  .portflo {
+    padding: 0 0 0 0;
+  }
+}
