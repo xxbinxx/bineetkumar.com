@@ -1,2 +1,2 @@
 # bineetkumar.com
-My Personal Website Crap :D  haha
+Some Website Crap :D  haha
